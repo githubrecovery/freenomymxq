@@ -1,7 +1,5 @@
 # freenom 域名自动续期
 
-[luolongfei/freenom](https://github.com/luolongfei/freenom) 的 Python 3.6+ 版本
-
 ## 运行
 
 ```shell script
