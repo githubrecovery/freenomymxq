@@ -70,7 +70,7 @@ class FreeNom:
         # renew domains
         for domain, days, renewal_id in domains:
             days = int(days)
-            if days < 14:
+            if days < 15:
                 self._s.headers.update({
                     'referer': f'https://my.freenom.com/domains.php?a=renewdomain&domain={renewal_id}',
                     'content-type': 'application/x-www-form-urlencoded'
